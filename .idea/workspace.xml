@@ -5,45 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytest.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mytest.0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/adjacentdigits/AdjacentDigitInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/adjacentdigits/AdjacentDigitInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/adjacentdigits/AdjacentDigits1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/adjacentdigits/AdjacentDigits1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/adjacentdigits/AdjacentDigits2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/adjacentdigits/AdjacentDigits2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/codewars/BraceChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/BraceChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/codewars/CodeWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/CodeWars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/codewars/CountDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/CountDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/codewars/LongestConsec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/LongestConsec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/codewars/Mixing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/Mixing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/codewars/PigLatin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/PigLatin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/codewars/PowerSumDig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/PowerSumDig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/codewars/Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/Suite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/codewars/ToSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/ToSmallest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/commonstrings/CommonSuffixes1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/commonstrings/CommonSuffixes1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/commonstrings/CommonSuffixesInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/commonstrings/CommonSuffixesInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/guessgame/GuessGame1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/guessgame/GuessGame1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/organizelater/PalindromeCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/organizelater/PalindromeCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/piglatin/PigLatin1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/piglatin/PigLatin1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ArrayHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/utils/ArrayHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/utils/Console.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/utils/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Introspection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/utils/Introspection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Randomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/utils/Randomizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StringTwister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/utils/StringTwister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exercisetests/AdjacentDigitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/AdjacentDigitsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exercisetests/CommonSuffixesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/CommonSuffixesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exercisetests/ExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/ExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exercisetests/PalindromeCounterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/PalindromeCounterTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exercisetests/PigLatinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/PigLatinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilitytests/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/utilitytests/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilitytests/ConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/utilitytests/ConsoleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilitytests/RandomizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/utilitytests/RandomizerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/romannumerals/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/romannumerals/RomanNumerals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +18,13 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="mytest.0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
