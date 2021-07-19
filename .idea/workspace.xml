@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/tallestcandle/TallestCandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/TallestCandleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/timeconversion/TimeConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/TimeConversionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +103,7 @@
       <recent name="com.github.git_leon" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TallestCandleTest">
+  <component name="RunManager" selected="JUnit.TimeConversionTest">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -214,56 +214,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.MinMaxSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinMaxSumTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.MinMaxSumTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinMaxSumTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.MinMaxSumTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinMaxSumTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mytest.0" />
       <extension name="coverage">
@@ -292,6 +242,56 @@
       <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
       <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.TallestCandleTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeConversionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.TimeConversionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeConversionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.TimeConversionTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeConversionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.TimeConversionTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -358,11 +358,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeConversionTest" />
+        <item itemvalue="JUnit.TimeConversionTest.test1" />
+        <item itemvalue="JUnit.TimeConversionTest.test" />
         <item itemvalue="JUnit.TallestCandleTest" />
         <item itemvalue="JUnit.MinMaxSumTest.test4" />
-        <item itemvalue="JUnit.MinMaxSumTest.test3" />
-        <item itemvalue="JUnit.MinMaxSumTest" />
-        <item itemvalue="JUnit.MinMaxSumTest.test" />
       </list>
     </recent_temporary>
   </component>
