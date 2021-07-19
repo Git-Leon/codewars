@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/timeconversion/TimeConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/TimeConversionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,11 +98,14 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.git_leon.exercises.sherlockandanagrams" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.github.git_leon" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TimeConversionTest">
+  <component name="RunManager" selected="Application.SherlockAndAnagrams">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -208,25 +210,22 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="SherlockAndAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercises.sherlockandanagrams.SherlockAndAnagrams" />
+      <module name="mytest.0" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercises.sherlockandanagrams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxSumTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.MinMaxSumTest" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -358,11 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SherlockAndAnagrams" />
         <item itemvalue="JUnit.TimeConversionTest" />
         <item itemvalue="JUnit.TimeConversionTest.test1" />
         <item itemvalue="JUnit.TimeConversionTest.test" />
         <item itemvalue="JUnit.TallestCandleTest" />
-        <item itemvalue="JUnit.MinMaxSumTest.test4" />
       </list>
     </recent_temporary>
   </component>
