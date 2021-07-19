@@ -16,14 +16,14 @@ public class Staircase {
 
     public static void staircase(int n) {
         StringJoiner sj = new StringJoiner("\n");
-        for(int i =0; i<n; i++) {
-            sj.add(padLeft(getRow(n), n));
+        for (int i = 0; i < n; i++) {
+            sj.add(padLeft(getRow(i+1), n));
         }
-        System.out.println(sj.toString());
+        System.out.println(sj.toString().replace("$\n", ""));
     }
 
     public static String getRow(int noCharacters) {
-        return new String(new char[noCharacters]).replaceAll("\u0000", "*");
+        return new String(new char[noCharacters]).replaceAll("\u0000", "#");
     }
 
     public static String padLeft(String string, int n) {
