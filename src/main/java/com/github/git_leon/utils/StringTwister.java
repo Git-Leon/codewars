@@ -18,6 +18,24 @@ public class StringTwister {
         return ArrayHandler.toString(phrases, delimiter);
     }
 
+    /**
+     * @param string value to be padded
+     * @param n      amount of padding
+     * @return string with left padding
+     */
+    public static String padLeft(String string, int n) {
+        return String.format("%1$" + n + "s", string);
+    }
+
+    /**
+     * @param string value to be padded
+     * @param n      amount of padding
+     * @return string with right padding
+     */
+    public static String padRight(String string, int n) {
+        return padLeft(string, -n);
+    }
+
     public static boolean isPalindrome(String str) {
         return new StringBuilder(str).reverse().toString().equals(str);
     }

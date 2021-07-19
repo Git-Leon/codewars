@@ -1,4 +1,4 @@
-package com.github.git_leon.diagnoldelta;
+package com.github.git_leon.exercises.diagnoldelta;
 
 
 import java.util.ArrayList;
@@ -6,6 +6,9 @@ import java.util.Collections;
 import java.util.List;
 
 
+/**
+ * https://www.hackerrank.com/challenges/diagonal-difference/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+ */
 public class DiagonalDelta {
 
     /*

@@ -1,6 +1,6 @@
 package com.github.git_leon.exercisetests;
 
-import com.github.git_leon.diagnoldelta.DiagonalDelta;
+import com.github.git_leon.exercises.diagnoldelta.DiagonalDelta;
 import org.junit.Assert;
 import org.junit.Test;
 
