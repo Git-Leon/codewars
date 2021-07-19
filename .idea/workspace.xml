@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/romannumerals/RomanNumeralCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/romannumerals/RomanNumeralExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/romannumerals/RomanNumerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/codewars/romannumerals/RomanNumeralEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/diagnoldelta/DiagonalDelta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/DiagonalDeltaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <recent name="com.github.git_leon" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DiagonalDeltaTest">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -231,6 +231,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DiagonalDeltaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.DiagonalDeltaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiagonalDeltaTest.getRightDiagonalSumTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.DiagonalDeltaTest" />
+      <option name="METHOD_NAME" value="getRightDiagonalSumTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiagonalDeltaTest.testDiagnol1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.DiagonalDeltaTest" />
+      <option name="METHOD_NAME" value="testDiagnol1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -292,6 +342,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DiagonalDeltaTest" />
+        <item itemvalue="JUnit.DiagonalDeltaTest.getRightDiagonalSumTest2" />
+        <item itemvalue="JUnit.DiagonalDeltaTest.testDiagnol1" />
         <item itemvalue="JUnit.AdjacentDigitsTest.test3" />
       </list>
     </recent_temporary>
@@ -358,6 +411,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -366,6 +420,17 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/git_leon/diagnoldelta/DiagonalDelta.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
