@@ -1,6 +1,7 @@
 package com.github.git_leon.exercisetests;
 
 import com.github.git_leon.exercises.MinMaxSum;
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -15,7 +16,7 @@ public class MinMaxSumTest {
         MinMaxSum minMaxSum = new MinMaxSum(input);
 
         //
-        System.out.println(minMaxSum.toString());
+        Assert.assertEquals(expected, minMaxSum.toString());
     }
 
     @Test
@@ -26,7 +27,7 @@ public class MinMaxSumTest {
         MinMaxSum minMaxSum = new MinMaxSum(input);
 
         //
-        System.out.println(minMaxSum.toString());
+        Assert.assertEquals(expected, minMaxSum.toString());
     }
 
     @Test
@@ -37,6 +38,16 @@ public class MinMaxSumTest {
         MinMaxSum minMaxSum = new MinMaxSum(input);
 
         //
-        System.out.println(minMaxSum.toString());
+        Assert.assertEquals(expected, minMaxSum.toString());
+    }
+    @Test
+    public void test4() {
+        //given
+        List<Integer> input = Arrays.asList(396285104, 573261094, 759641832, 819230764, 364801279);
+        String expected = "2093989309 2548418794";
+        MinMaxSum minMaxSum = new MinMaxSum(input);
+
+        //
+        Assert.assertEquals(expected, minMaxSum.toString());
     }
 }
