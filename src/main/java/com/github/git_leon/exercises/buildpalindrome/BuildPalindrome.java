@@ -20,7 +20,7 @@ public class BuildPalindrome {
     }
 
     private List<String> getAllSubstrings(String s) {
-        List<String> result = new ArrayList<>();
+        List<String> result = new ArrayList<>(s.length() * s.length());
         for (int i = 0; i < s.length(); i++) {
             for (int j = i + 1; j <= s.length(); j++) {
                 result.add(s.substring(i, j));
