@@ -1,23 +1,11 @@
-package com.github.git_leon.exercisetests;
+package com.github.git_leon.exercisetests.buildpalindrome;
 
-import com.github.git_leon.exercises.buildpalindrome.BuildPalindromeBruteForce;
 import com.github.git_leon.exercises.buildpalindrome.BuildPalindromeInterface;
 import com.github.git_leon.exercises.buildpalindrome.BuildPalindromeOptimized;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class BuildPalindromeTest {
-    private void testBruteForce(String value1, String value2, String expected) {
-        // given
-        BuildPalindromeInterface bp = new BuildPalindromeBruteForce(value1, value2);
-
-        // when
-        String actual = bp.toString();
-
-        // then
-        Assert.assertEquals(expected, actual);
-    }
-
+public class BuildPalindromeOptimizedTest {
     private void test(String value1, String value2, String expected) {
         // given
         BuildPalindromeInterface bp = new BuildPalindromeOptimized(value1, value2);
@@ -45,7 +33,7 @@ public class BuildPalindromeTest {
     }
 
     @Test
-    public void  test4() {
+    public void test4() {
         test("jdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfh", "dfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfd", "hfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfh");
     }
 

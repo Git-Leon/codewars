@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeOptimized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeIurchenko.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeIurchenkoRefactored.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/buildpalindrome/BuildPalindromeBruteForceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/buildpalindrome/BuildPalindromeIurchenkoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeBruteForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/BuildPalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/BuildPalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeOptimized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeOptimized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/BuildPalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/buildpalindrome/BuildPalindromeOptimizedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,8 +117,12 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.github.git_leon" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.git_leon.exercisetests.buildpalindrome" />
+      <recent name="com.github.git_leon.exercises.buildpalindrome" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.BuildPalindromeTest">
+  <component name="RunManager" selected="JUnit.BuildPalindromeIurchenkoTest.test6">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -221,87 +227,72 @@
       <listeners />
       <method />
     </configuration>
-    <configuration name="SherlockAndAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercises.sherlockandanagrams.SherlockAndAnagrams" />
-      <module name="mytest.0" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercises.sherlockandanagrams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuildPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BuildPalindromeIurchenkoRefactoredTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mytest.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.buildpalindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.BuildPalindromeTest" />
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests.buildpalindrome" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.buildpalindrome.BuildPalindromeIurchenkoRefactoredTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuildPalindromeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BuildPalindromeIurchenkoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mytest.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.buildpalindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.BuildPalindromeTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeConversionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.TimeConversionTest" />
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests.buildpalindrome" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.buildpalindrome.BuildPalindromeIurchenkoTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeConversionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BuildPalindromeIurchenkoTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mytest.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercisetests.*" />
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.buildpalindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.TimeConversionTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests.buildpalindrome" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.buildpalindrome.BuildPalindromeIurchenkoTest" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildPalindromeOptimizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.buildpalindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests.buildpalindrome" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.buildpalindrome.BuildPalindromeOptimizedTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -309,6 +300,21 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.github.git_leon.exercisetests.buildpalindrome in mytest.0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.buildpalindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests.buildpalindrome" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -368,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BuildPalindromeTest" />
-        <item itemvalue="JUnit.BuildPalindromeTest.test1" />
-        <item itemvalue="Application.SherlockAndAnagrams" />
-        <item itemvalue="JUnit.TimeConversionTest" />
-        <item itemvalue="JUnit.TimeConversionTest.test1" />
+        <item itemvalue="JUnit.BuildPalindromeIurchenkoTest.test6" />
+        <item itemvalue="JUnit.BuildPalindromeIurchenkoTest" />
+        <item itemvalue="JUnit.BuildPalindromeIurchenkoRefactoredTest" />
+        <item itemvalue="JUnit.BuildPalindromeOptimizedTest" />
+        <item itemvalue="JUnit.com.github.git_leon.exercisetests.buildpalindrome in mytest.0" />
       </list>
     </recent_temporary>
   </component>
@@ -470,11 +476,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeBruteForce.java</url>
           <line>61</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeOptimized.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

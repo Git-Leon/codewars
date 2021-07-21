@@ -66,9 +66,12 @@ public class BuildPalindromeOptimized  implements BuildPalindromeInterface {
         if (a == null || b == null || a.length() == 0 || b.length() == 0) {
             return "";
         }
+
         if (a.equals(b)) {
             return a;
         }
+
+        String b = new StringBuilder(this.b).reverse().toString();
         int[][] matrix = new int[a.length()][];
 
         int maxLength = 0;
