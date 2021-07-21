@@ -7,10 +7,10 @@ import java.util.*;
 /**
  * https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
  */
-public class SherlockAndAnagrams {
+public class SherlockAndAnagramsBruteForce {
     private final String originalString;
 
-    public SherlockAndAnagrams(String s) {
+    public SherlockAndAnagramsBruteForce(String s) {
         this.originalString = s;
     }
 
@@ -55,6 +55,6 @@ public class SherlockAndAnagrams {
 
     public static int sherlockAndAnagrams(String s) {
         // Write your code here
-        return new SherlockAndAnagrams(s).solve().size();
+        return new SherlockAndAnagramsBruteForce(s).solve().size();
     }
 }

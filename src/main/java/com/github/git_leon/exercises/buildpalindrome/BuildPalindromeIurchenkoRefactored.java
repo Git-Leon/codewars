@@ -66,38 +66,52 @@ public class BuildPalindromeIurchenkoRefactored implements BuildPalindromeInterf
         return ch;
     }
 
-    private String longestCommonSubString(String strA, String b) {
-        if (strA == null || b == null || strA.length() == 0 || b.length() == 0) {
+
+    private String longestCommonSubString(String a, String b) {
+        if (a == null || b == null || a.length() == 0 || b.length() == 0) {
             return "";
         }
-        if (strA.equals(b)) {
-            return strA;
+        if (a.equals(b)) {
+            return a;
         }
-        int[][] matrix = new int[strA.length()][];
+        int firstDimensionSize = a.length();
+        int[][] matrix = new int[firstDimensionSize][];
 
         int maxLength = 0;
         int maxI = 0;
 
-        for (int i = 0; i < matrix.length; i++) {
-            matrix[i] = new int[b.length()];
-            for (int j = 0; j < matrix[i].length; j++) {
-                if (strA.charAt(i) == b.charAt(j)) {
-                    if (i != 0 && j != 0) {
-                        matrix[i][j] = matrix[i - 1][j - 1] + 1;
+        for (int columnNumber = 0; columnNumber < matrix.length; columnNumber++) {
+            int secondDimensionSize = b.length();
+            matrix[columnNumber] = new int[secondDimensionSize];
+            for (int rowNumber = 0; rowNumber < matrix[columnNumber].length; rowNumber++) {
+                Character characterA = a.charAt(columnNumber);
+                Character characterB = b.charAt(rowNumber);
+                boolean isSameCharacter = characterA.equals(characterB);
+                if (isSameCharacter) {
+                    if (columnNumber != 0 && rowNumber != 0) {
+                        int previousColumnNumber = columnNumber - 1;
+                        int previousRowNumber = rowNumber - 1;
+                        int previousCellValue = matrix[previousColumnNumber][previousRowNumber];
+                        int currentCellValue = previousCellValue + 1;
+                        matrix[columnNumber][rowNumber] = currentCellValue;
                     } else {
-                        matrix[i][j] = 1;
+                        matrix[columnNumber][rowNumber] = 1;
                     }
-                    if (matrix[i][j] > maxLength
-                            || (matrix[i][j] == maxLength && strA.substring(
-                            maxI - maxLength + 1, maxI + 1).compareTo(
-                            strA.substring(i - maxLength + 1, i + 1)) > 0)) {
-                        maxLength = matrix[i][j];
-                        maxI = i;
+                    String substring1 = a.substring(maxI - maxLength + 1, maxI + 1);
+                    String substring2 = a.substring(columnNumber - maxLength + 1, columnNumber + 1);
+                    int currentCellValue = matrix[columnNumber][rowNumber];
+
+                    boolean isCurrentCellValueGreaterThanMaxLength = currentCellValue > maxLength;
+                    boolean isCurrentCellValueEqualToMaxLength = currentCellValue == maxLength;
+                    boolean isGreaterThanSubstring2 = substring1.compareTo(substring2) > 0;
+                    if (isCurrentCellValueGreaterThanMaxLength || (isCurrentCellValueEqualToMaxLength && isGreaterThanSubstring2)) {
+                        maxLength = currentCellValue;
+                        maxI = columnNumber;
                     }
                 }
             }
         }
-        return strA.substring(maxI - maxLength + 1, maxI + 1);
+        return a.substring(maxI - maxLength + 1, maxI + 1);
     }
 
     public static String buildPalindrome(String a, String b) {

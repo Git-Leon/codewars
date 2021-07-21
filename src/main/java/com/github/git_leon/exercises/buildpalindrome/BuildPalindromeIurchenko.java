@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 // https://github.com/mariiaiurchenko/hackerrank/blob/master/HakerRank/src/main/java/com/spring/tutorial/HakerRank/strings/BuildAPalindrome.java
 public class BuildPalindromeIurchenko {
-    public static String buildPalindrome(String strA, String strB) {
+
+    private static Object buildPalindrome(String strA, String strB) {
         String reverseStrB = new StringBuilder(strB).reverse().toString();
         String longestCS = longestCommonSubString(strA, reverseStrB);
         StringBuilder res = new StringBuilder();
