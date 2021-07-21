@@ -1,16 +1,17 @@
 package com.github.git_leon.exercisetests.sherlockandanagrams;
 
 import com.github.git_leon.exercises.sherlockandanagrams.SherlockAndAnagramsBruteForce;
+import com.github.git_leon.exercises.sherlockandanagrams.SherlockAndAnagramsInterface;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class SherlockAndAnagramsBruteForceTest {
     public void test(String input, int expected) {
         // given
-        SherlockAndAnagramsBruteForce sherlockAndAnagrams = new SherlockAndAnagramsBruteForce(input);
+        SherlockAndAnagramsInterface sherlockAndAnagrams = new SherlockAndAnagramsBruteForce(input);
 
         // when
-        int actual = sherlockAndAnagrams.solve().size();
+        int actual = sherlockAndAnagrams.solve();
 
         // actual
         Assert.assertEquals(expected, actual);

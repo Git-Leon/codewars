@@ -75,7 +75,7 @@ public class BuildPalindromeIurchenkoRefactored implements BuildPalindromeInterf
             return a;
         }
         int firstDimensionSize = a.length();
-        int[][] matrix = new int[firstDimensionSize][];
+        int[][] matrix = new int[firstDimensionSize][]; // length of longest common suffixes of substrings
 
         int maxLength = 0;
         int maxI = 0;
@@ -95,7 +95,7 @@ public class BuildPalindromeIurchenkoRefactored implements BuildPalindromeInterf
                         int currentCellValue = previousCellValue + 1;
                         matrix[columnNumber][rowNumber] = currentCellValue;
                     } else {
-                        matrix[columnNumber][rowNumber] = 1;
+                        matrix[columnNumber][rowNumber] = 1; // first row and column entry is meaningless
                     }
                     String substring1 = a.substring(maxI - maxLength + 1, maxI + 1);
                     String substring2 = a.substring(columnNumber - maxLength + 1, columnNumber + 1);

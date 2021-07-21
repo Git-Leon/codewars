@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsOptimized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsOptimizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsShivam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsShivamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeIurchenko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeIurchenko.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsBruteForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/SherlockAndAnagramsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsBruteForceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeIurchenkoRefactored.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeIurchenkoRefactored.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsBruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsBruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsOptimized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsOptimized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsBruteForceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsBruteForceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsOptimizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsOptimizedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -123,7 +128,7 @@
       <recent name="com.github.git_leon.exercises.buildpalindrome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SherlockAndAnagramsBruteForceTest">
+  <component name="RunManager" selected="JUnit.SherlockAndAnagramsShivamTest">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -228,6 +233,20 @@
       <listeners />
       <method />
     </configuration>
+    <configuration name="SherlockAndAnagramsShivam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercises.sherlockandanagrams.SherlockAndAnagramsShivam" />
+      <module name="mytest.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercises.sherlockandanagrams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -250,57 +269,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SherlockAndAnagramsBruteForceTest.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercisetests.sherlockandanagrams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests.sherlockandanagrams" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.sherlockandanagrams.SherlockAndAnagramsBruteForceTest" />
-      <option name="METHOD_NAME" value="test0" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SherlockAndAnagramsBruteForceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercisetests.sherlockandanagrams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests.sherlockandanagrams" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.sherlockandanagrams.SherlockAndAnagramsBruteForceTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SherlockAndAnagramsBruteForceTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.exercisetests.sherlockandanagrams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests.sherlockandanagrams" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.sherlockandanagrams.SherlockAndAnagramsBruteForceTest" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SherlockAndAnagramsOptimizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mytest.0" />
       <extension name="coverage">
@@ -317,8 +285,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SherlockAndAnagramsShivamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.sherlockandanagrams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests.sherlockandanagrams" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.exercisetests.sherlockandanagrams.SherlockAndAnagramsShivamTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.github.git_leon.exercisetests.sherlockandanagrams in mytest.0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.exercisetests.sherlockandanagrams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.exercisetests.sherlockandanagrams" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -378,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SherlockAndAnagramsBruteForceTest" />
+        <item itemvalue="JUnit.SherlockAndAnagramsShivamTest" />
+        <item itemvalue="Application.SherlockAndAnagramsShivam" />
         <item itemvalue="JUnit.SherlockAndAnagramsOptimizedTest" />
-        <item itemvalue="JUnit.SherlockAndAnagramsBruteForceTest.test4" />
-        <item itemvalue="JUnit.SherlockAndAnagramsBruteForceTest.test0" />
-        <item itemvalue="JUnit.SherlockAndAnagramsBruteForceTest.test1" />
+        <item itemvalue="JUnit.com.github.git_leon.exercisetests.sherlockandanagrams in mytest.0" />
+        <item itemvalue="JUnit.SherlockAndAnagramsBruteForceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -480,11 +479,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeBruteForce.java</url>
           <line>61</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsBruteForce.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

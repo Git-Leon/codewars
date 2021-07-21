@@ -1,15 +1,14 @@
 package com.github.git_leon.exercisetests.sherlockandanagrams;
 
-import com.github.git_leon.exercises.sherlockandanagrams.SherlockAndAnagramsBruteForce;
 import com.github.git_leon.exercises.sherlockandanagrams.SherlockAndAnagramsInterface;
-import com.github.git_leon.exercises.sherlockandanagrams.SherlockAndAnagramsOptimized;
+import com.github.git_leon.exercises.sherlockandanagrams.SherlockAndAnagramsShivam;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class SherlockAndAnagramsOptimizedTest {
+public class SherlockAndAnagramsShivamTest {
     public void test(String input, int expected) {
         // given
-        SherlockAndAnagramsInterface sherlockAndAnagrams = new SherlockAndAnagramsOptimized(input);
+        SherlockAndAnagramsInterface sherlockAndAnagrams = new SherlockAndAnagramsShivam(input);
 
         // when
         int actual = sherlockAndAnagrams.solve();
@@ -24,7 +23,6 @@ public class SherlockAndAnagramsOptimizedTest {
         // given
         test("mom", 2);
     }
-
 
 
     @Test
