@@ -1,13 +1,26 @@
 package com.github.git_leon.exercisetests;
 
-import com.github.git_leon.exercises.buildpalindrome.BuildPalindrome;
+import com.github.git_leon.exercises.buildpalindrome.BuildPalindromeBruteForce;
+import com.github.git_leon.exercises.buildpalindrome.BuildPalindromeInterface;
+import com.github.git_leon.exercises.buildpalindrome.BuildPalindromeOptimized;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class BuildPalindromeTest {
+    private void testBruteForce(String value1, String value2, String expected) {
+        // given
+        BuildPalindromeInterface bp = new BuildPalindromeBruteForce(value1, value2);
+
+        // when
+        String actual = bp.toString();
+
+        // then
+        Assert.assertEquals(expected, actual);
+    }
+
     private void test(String value1, String value2, String expected) {
         // given
-        BuildPalindrome bp = new BuildPalindrome(value1, value2);
+        BuildPalindromeInterface bp = new BuildPalindromeOptimized(value1, value2);
 
         // when
         String actual = bp.toString();
@@ -30,4 +43,16 @@ public class BuildPalindromeTest {
     public void test3() {
         test("jdfh", "fds", "dfhfd");
     }
+
+    @Test
+    public void  test4() {
+        test("jdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfh", "dfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfd", "hfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfh");
+    }
+
+    @Test
+    public void test5() {
+        test("jdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfhjdfh", "dfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfd", "hfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfh");
+    }
+
+
 }

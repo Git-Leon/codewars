@@ -1,16 +1,15 @@
 package com.github.git_leon.exercises.buildpalindrome;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * https://www.hackerrank.com/challenges/challenging-palindromes/problem
  */
-public class BuildPalindrome {
-    private String a;
-    private String b;
+public class BuildPalindromeBruteForce implements BuildPalindromeInterface {
+    private final String a;
+    private final String b;
 
-    public BuildPalindrome(String a, String b) {
+    public BuildPalindromeBruteForce(String a, String b) {
         this.a = a;
         this.b = b;
     }
@@ -20,9 +19,10 @@ public class BuildPalindrome {
     }
 
     private List<String> getAllSubstrings(String s) {
-        List<String> result = new ArrayList<>(s.length() * s.length());
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i + 1; j <= s.length(); j++) {
+        int n = s.length();
+        List<String> result = new ArrayList<>(n*n);
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j <= n; j++) {
                 result.add(s.substring(i, j));
             }
         }
@@ -60,7 +60,7 @@ public class BuildPalindrome {
     public String toString() {
         List<String> palindromicProducts = new ArrayList<>(getAllPalindromicProducts());
         palindromicProducts.sort((string1, string2) -> {
-            int lengthDelta = string1.length() - string2.length();
+            int lengthDelta = string2.length() - string1.length();
             if (lengthDelta == 0) {
                 return string1.compareTo(string2);
             }
@@ -81,6 +81,6 @@ public class BuildPalindrome {
      *  2. STRING b
      */
     public static String buildPalindrome(String a, String b) {
-        return new BuildPalindrome(a, b).toString();
+        return new BuildPalindromeBruteForce(a, b).toString();
     }
 }
