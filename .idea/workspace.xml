@@ -116,7 +116,7 @@
       <recent name="com.github.git_leon" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BuildPalindromeTest.test1">
+  <component name="RunManager" selected="JUnit.BuildPalindromeTest">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -368,8 +368,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BuildPalindromeTest.test1" />
         <item itemvalue="JUnit.BuildPalindromeTest" />
+        <item itemvalue="JUnit.BuildPalindromeTest.test1" />
         <item itemvalue="Application.SherlockAndAnagrams" />
         <item itemvalue="JUnit.TimeConversionTest" />
         <item itemvalue="JUnit.TimeConversionTest.test1" />

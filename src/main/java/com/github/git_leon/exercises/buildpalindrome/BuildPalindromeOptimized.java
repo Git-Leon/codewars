@@ -30,7 +30,27 @@ public class BuildPalindromeOptimized  implements BuildPalindromeInterface {
     }
 
     public Set<String> getAllPalindromicProducts() {
-        Set<String> set = new HashSet<String>() {
+        Set<String> set = createNewHashMap();
+        String longestCommonSubString = getLongestCommonSubstring();
+
+        for (String substringA : getAllSubstrings(longestCommonSubString)) {
+            for (String substringB : getAllSubstrings(longestCommonSubString)) {
+                String potentialAddition = substringA + substringB;
+                if (isPalindromic(potentialAddition)) {
+                    set.add(potentialAddition);
+                }
+
+                potentialAddition = substringB + substringA;
+                if (isPalindromic(potentialAddition)) {
+                    set.add(potentialAddition);
+                }
+            }
+        }
+        return set;
+    }
+
+    private Set<String> createNewHashMap() {
+        return new HashSet<String>() {
             @Override
             public String toString() {
                 StringJoiner sj = new StringJoiner("\n");
@@ -40,14 +60,6 @@ public class BuildPalindromeOptimized  implements BuildPalindromeInterface {
                 return sj.toString();
             }
         };
-        String longestCommonSubString = getLongestCommonSubstring();
-        List<String> allSubstrings = getAllSubstrings(longestCommonSubString);
-        for (String potentialAddition : allSubstrings) {
-            if (isPalindromic(potentialAddition)) {
-                set.add(potentialAddition);
-            }
-        }
-        return set;
     }
 
     private String getLongestCommonSubstring() {
