@@ -1,8 +1,6 @@
 package com.github.git_leon.exercisetests.buildpalindrome;
 
-import com.github.git_leon.exercises.buildpalindrome.BuildPalindromeInterface;
 import com.github.git_leon.exercises.buildpalindrome.BuildPalindromeIurchenko;
-import com.github.git_leon.exercises.buildpalindrome.BuildPalindromeIurchenkoRefactored;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -42,9 +40,15 @@ public class BuildPalindromeIurchenkoTest {
     public void test5() {
         test("qquhuwqhdswxxrxuzzfhkplwunfagppcoildagktgdarveusjuqfistulgbglwmfgzrnyxryetwzhlnfewczmnoozlqatugmd", "dfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfd", "hfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfhfddfh");
     }
+
     @Test
     public void test6() {
         test("qquhuwqhdswxxrxuzzfhkplwunfagppcoildagktgdarveusjuqfistulgbglwmfgzrnyxryetwzhlnfewczmnoozlqatugmd", "jwgzcfabbkoxyjxkatjmpprswkdkobdagwdwxsufeesrvncbszcepigpbzuzoootorzfskcwbqorvw", "oozlzoo");
+    }
+
+    @Test
+    public void test7() {
+        test("qquhuwqhdswxxrxuzzfhkplwunfagppcoildagktgdarveusjuqfistulgbglwmfgzrnyxryetwzhlnfewczmnoozlqatugmdThe quick brown fox jumps over the lazy dog", "god yzal eht revo spmuj xof nworb kciuq ehTjwgzcfabbkoxyjxkatjmpprswkdkobdagwdwxsufeesrvncbszcepigpbzuzoootorzfskcwbqorvw", "The quick brown fox jumps over the lazy doggod yzal eht revo spmuj xof nworb kciuq ehT");
     }
 
 }

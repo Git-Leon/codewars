@@ -1,7 +1,5 @@
 package com.github.git_leon.exercises.buildpalindrome;
 
-import java.util.Scanner;
-
 // https://github.com/mariiaiurchenko/hackerrank/blob/master/HakerRank/src/main/java/com/spring/tutorial/HakerRank/strings/BuildAPalindrome.java
 public class BuildPalindromeIurchenkoRefactored implements BuildPalindromeInterface {
     private final String strA;
@@ -12,44 +10,35 @@ public class BuildPalindromeIurchenkoRefactored implements BuildPalindromeInterf
         this.strB = value2;
     }
 
-    public static String buildPalindrome(String a, String b) {
-        return new BuildPalindromeIurchenkoRefactored(a, b).toString();
-    }
-
     public String toString() {
         String reverseStrB = new StringBuilder(strB).reverse().toString();
-        String longestCS = longestCommonSubString(reverseStrB);
+        String longestCS = longestCommonSubString(strA, reverseStrB);
         if (longestCS.length() <= 0) {
             return "-1";
         }
-        StringBuilder res = new StringBuilder();
 
-        String reverseLongestCS = new StringBuilder(longestCS).reverse()
-                .toString();
+        String reverseLongestCS = new StringBuilder(longestCS).reverse().toString();
         int indexStart = strA.indexOf(longestCS);
         int indexEnd = indexStart + longestCS.length();
-        Character chA = findMinNextChar(longestCS);
-        Character chB = findMinPrevChar(reverseLongestCS);
-        StringBuilder middle = findMinChar(chA, chB);
-        res
-                .append(strA.substring(indexStart, indexEnd))
-                .append(middle)
-                .append(reverseLongestCS);
-
-        return res.toString();
+        Character chA = findMinNextChar(strA, longestCS);
+        Character chB = findMinPrevChar(strB, reverseLongestCS);
+        String middle = findMinChar(chA, chB);
+        return strA
+                .substring(indexStart, indexEnd)
+                .concat(middle)
+                .concat(reverseLongestCS);
     }
 
-    private StringBuilder findMinChar(Character a, Character b) {
-        StringBuilder res = new StringBuilder();
+    private String findMinChar(Character a, Character b) {
         if (a != null && (b == null || a < b)) {
-            res.append(a);
+            return a.toString();
         } else if (b != null) {
-            res.append(b);
+            return b.toString();
         }
-        return res;
+        return "";
     }
 
-    private Character findMinNextChar(String subStr) {
+    private Character findMinNextChar(String strA, String subStr) {
         Character ch = null;
         int index = strA.indexOf(subStr);
         while (index != -1) {
@@ -63,7 +52,7 @@ public class BuildPalindromeIurchenkoRefactored implements BuildPalindromeInterf
         return ch;
     }
 
-    private Character findMinPrevChar(String subStr) {
+    private Character findMinPrevChar(String strB, String subStr) {
         Character ch = null;
         int index = strB.indexOf(subStr);
         while (index != -1) {
@@ -77,7 +66,7 @@ public class BuildPalindromeIurchenkoRefactored implements BuildPalindromeInterf
         return ch;
     }
 
-    private String longestCommonSubString(String b) {
+    private String longestCommonSubString(String strA, String b) {
         if (strA == null || b == null || strA.length() == 0 || b.length() == 0) {
             return "";
         }
@@ -109,5 +98,9 @@ public class BuildPalindromeIurchenkoRefactored implements BuildPalindromeInterf
             }
         }
         return strA.substring(maxI - maxLength + 1, maxI + 1);
+    }
+
+    public static String buildPalindrome(String a, String b) {
+        return new BuildPalindromeIurchenkoRefactored(a, b).toString();
     }
 }

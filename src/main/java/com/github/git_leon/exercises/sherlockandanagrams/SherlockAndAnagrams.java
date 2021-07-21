@@ -1,8 +1,8 @@
 package com.github.git_leon.exercises.sherlockandanagrams;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import javafx.util.Pair;
+
+import java.util.*;
 
 /**
  * https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
@@ -17,26 +17,22 @@ public class SherlockAndAnagrams {
     public List<String> getAllSubstrings() {
         List<String> result = new ArrayList<>();
         for (int i = 0; i < originalString.length(); i++) {
-            for (int j = 0; j < originalString.length(); j++) {
+            for (int j = i + 1; j <= originalString.length(); j++) {
                 result.add(originalString.substring(i, j));
             }
         }
         return result;
     }
 
-    public List<String> solve() {
+    public Collection<Pair<String, String>> solve() {
         List<String> allSubStringList = getAllSubstrings();
-        List<String> allSubstringsToBeRemoved = new ArrayList<>(allSubStringList);
-        List<String> result = new ArrayList<>();
-        for (String substring1 : allSubStringList) {
-            allSubstringsToBeRemoved.remove(substring1);
-            if (allSubstringsToBeRemoved.contains(substring1)) {
-                result.add(substring1);
-                continue;
-            }
-            for (String substring2 : allSubstringsToBeRemoved) {
+        Collection<Pair<String, String>> result = new ArrayList<>(allSubStringList.size());
+        for (int i = 0; i < allSubStringList.size(); i++) {
+            String substring1 = allSubStringList.get(i);
+            for (int j = i+1; j < allSubStringList.size(); j++) {
+                String substring2 = allSubStringList.get(j);
                 if (isAnagram(substring1, substring2)) {
-                    result.add(substring1);
+                    result.add(new Pair<>(substring1, substring2));
                 }
             }
         }
@@ -50,7 +46,6 @@ public class SherlockAndAnagrams {
         Arrays.sort(charArray2);
         return Arrays.equals(charArray1, charArray2);
     }
-
     /*
      * Complete the 'sherlockAndAnagrams' function below.
      *

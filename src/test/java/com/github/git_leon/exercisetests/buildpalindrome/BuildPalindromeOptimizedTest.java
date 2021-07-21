@@ -18,6 +18,12 @@ public class BuildPalindromeOptimizedTest {
     }
 
     @Test
+    public void test() {
+        String out = "The quick brown fox jumps over the lazy dog";
+        System.out.println(out.concat(new StringBuilder(out).reverse().toString()));
+    }
+
+    @Test
     public void test1() {
         test("bac", "bac", "aba");
     }

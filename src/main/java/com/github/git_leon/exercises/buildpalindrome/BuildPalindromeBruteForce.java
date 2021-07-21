@@ -20,7 +20,7 @@ public class BuildPalindromeBruteForce implements BuildPalindromeInterface {
 
     private List<String> getAllSubstrings(String s) {
         int n = s.length();
-        List<String> result = new ArrayList<>(n*n);
+        List<String> result = new ArrayList<>(n * n);
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j <= n; j++) {
                 result.add(s.substring(i, j));
@@ -29,8 +29,8 @@ public class BuildPalindromeBruteForce implements BuildPalindromeInterface {
         return result;
     }
 
-    public Set<String> getAllPalindromicProducts() {
-        Set<String> set = new HashSet<String>() {
+    private Set<String> getHashSet() {
+        return new HashSet<String>() {
             @Override
             public String toString() {
                 StringJoiner sj = new StringJoiner("\n");
@@ -40,14 +40,13 @@ public class BuildPalindromeBruteForce implements BuildPalindromeInterface {
                 return sj.toString();
             }
         };
+    }
+
+    public Set<String> getAllPalindromicSums() {
+        Set<String> set = getHashSet();
         for (String substringA : getAllSubstrings(a)) {
             for (String substringB : getAllSubstrings(b)) {
                 String potentialAddition = substringA + substringB;
-                if (isPalindromic(potentialAddition)) {
-                    set.add(potentialAddition);
-                }
-
-                potentialAddition = substringB + substringA;
                 if (isPalindromic(potentialAddition)) {
                     set.add(potentialAddition);
                 }
@@ -58,7 +57,7 @@ public class BuildPalindromeBruteForce implements BuildPalindromeInterface {
 
     @Override
     public String toString() {
-        List<String> palindromicProducts = new ArrayList<>(getAllPalindromicProducts());
+        List<String> palindromicProducts = new ArrayList<>(getAllPalindromicSums());
         palindromicProducts.sort((string1, string2) -> {
             int lengthDelta = string2.length() - string1.length();
             if (lengthDelta == 0) {
