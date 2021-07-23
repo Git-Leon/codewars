@@ -3,18 +3,15 @@ package com.github.git_leon.exercises.sherlockandanagrams;
 import javafx.util.Pair;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
 /**
  * https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
  */
-public class SherlockAndAnagramsBruteForce implements SherlockAndAnagramsInterface {
-    private final String originalString;
-
+public class SherlockAndAnagramsBruteForce extends AbstractSherlockAndAnagrams {
     public SherlockAndAnagramsBruteForce(String s) {
-        this.originalString = s;
+        super(s);
     }
 
     public List<String> getAllSubstrings() {
@@ -25,10 +22,6 @@ public class SherlockAndAnagramsBruteForce implements SherlockAndAnagramsInterfa
             }
         }
         return result;
-    }
-
-    public Integer solve() {
-        return getAllAnagrammaticPairs().size();
     }
 
     public Collection<Pair<String, String>> getAllAnagrammaticPairs() {
@@ -46,13 +39,6 @@ public class SherlockAndAnagramsBruteForce implements SherlockAndAnagramsInterfa
         return result;
     }
 
-    private boolean isAnagram(String value1, String value2) {
-        char[] charArray1 = value1.toCharArray();
-        char[] charArray2 = value2.toCharArray();
-        Arrays.sort(charArray1);
-        Arrays.sort(charArray2);
-        return Arrays.equals(charArray1, charArray2);
-    }
     /*
      * Complete the 'sherlockAndAnagrams' function below.
      *

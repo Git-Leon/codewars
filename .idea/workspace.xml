@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsShivam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsShivamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/AbstractSherlockAndAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeIurchenko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeIurchenko.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeIurchenkoRefactored.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/buildpalindrome/BuildPalindromeIurchenkoRefactored.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsBruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsBruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsOptimized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsOptimized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsBruteForceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsBruteForceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsOptimizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/exercisetests/sherlockandanagrams/SherlockAndAnagramsOptimizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsShivam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/exercises/sherlockandanagrams/SherlockAndAnagramsShivam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,8 +118,8 @@
       <recent name="com.github.git_leon" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.github.git_leon.exercisetests.sherlockandanagrams" />
       <recent name="com.github.git_leon.exercises.sherlockandanagrams" />
+      <recent name="com.github.git_leon.exercisetests.sherlockandanagrams" />
       <recent name="com.github.git_leon.exercisetests.buildpalindrome" />
       <recent name="com.github.git_leon.exercises.buildpalindrome" />
     </key>
