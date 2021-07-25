@@ -1,7 +1,7 @@
 package com.github.git_leon;
 
-import com.github.git_leon.exercises.adjacentdigits.AdjacentDigits1;
-import com.github.git_leon.exercises.commonstrings.CommonSuffixes1;
+import com.github.git_leon.codewars.adjacentdigits.AdjacentDigits1;
+import com.github.git_leon.codewars.commonstrings.CommonSuffixes1;
 
 /**
  * Created by Chris on 2/4/2017.
