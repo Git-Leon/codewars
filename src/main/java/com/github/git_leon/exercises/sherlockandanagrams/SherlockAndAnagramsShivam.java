@@ -16,7 +16,7 @@ public class SherlockAndAnagramsShivam extends AbstractSherlockAndAnagrams {
         List<Pair<String, String>> result = new ArrayList<>();
         int originalStringLength = originalString.length();
         for (int index = 1; index < originalStringLength; index++) {
-            for (int i = 0; i < originalStringLength - index + 1; i++) {
+            for (int i = 0; i < originalStringLength - index + 1; i++) { // instead of iterating through entire length, sub index it will gradually become shorter
                 String firstSubstring = originalString.substring(i, index + i);
                 for (int j = i + 1; j < originalStringLength - index + 1; j++) {
                     String nextSubstring = originalString.substring(j, index + j);
