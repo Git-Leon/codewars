@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNodeGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNodeRemovalSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/TestListNodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/GenerateLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +119,7 @@
       <recent name="com.github.git_leon.exercises.buildpalindrome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveFromLinkedList.testRemoval">
+  <component name="RunManager" selected="JUnit.RemoveFromLinkedList.testRemoval1">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -231,20 +224,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration name="SherlockAndAnagramsShivam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.hackerrank.sherlockandanagrams.SherlockAndAnagramsShivam" />
-      <module name="mytest.0" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.hackerrank.sherlockandanagrams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -295,6 +274,23 @@
       <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode" />
       <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.RemoveFromLinkedList" />
       <option name="METHOD_NAME" value="testRemoval" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveFromLinkedList.testRemoval1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.RemoveFromLinkedList" />
+      <option name="METHOD_NAME" value="testRemoval1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -378,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveFromLinkedList.testRemoval1" />
         <item itemvalue="JUnit.RemoveFromLinkedList.testRemoval" />
         <item itemvalue="JUnit.GenerateLinkedList.testGeneration" />
         <item itemvalue="JUnit.BuildPalindromeIurchenkoRefactoredTest" />
         <item itemvalue="JUnit.SherlockAndAnagramsShivamTest" />
-        <item itemvalue="Application.SherlockAndAnagramsShivam" />
       </list>
     </recent_temporary>
   </component>
