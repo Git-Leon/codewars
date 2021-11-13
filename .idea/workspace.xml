@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/TestListNodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -102,6 +108,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
@@ -119,7 +127,7 @@
       <recent name="com.github.git_leon.exercises.buildpalindrome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BuildPalindromeIurchenkoRefactoredTest">
+  <component name="RunManager" selected="JUnit.TestListNodeGenerator.testGeneration">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -292,23 +300,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="TestListNodeGenerator.testGeneration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.TestListNodeGenerator" />
+      <option name="METHOD_NAME" value="testGeneration" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.github.git_leon.hackerrank.sherlockandanagrams in mytest.0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.hackerrank.sherlockandanagrams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.hackerrank.sherlockandanagrams" />
-      <option name="TEST_OBJECT" value="package" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -368,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestListNodeGenerator.testGeneration" />
         <item itemvalue="JUnit.BuildPalindromeIurchenkoRefactoredTest" />
         <item itemvalue="JUnit.SherlockAndAnagramsShivamTest" />
         <item itemvalue="Application.SherlockAndAnagramsShivam" />
         <item itemvalue="JUnit.SherlockAndAnagramsOptimizedTest" />
-        <item itemvalue="JUnit.com.github.git_leon.hackerrank.sherlockandanagrams in mytest.0" />
       </list>
     </recent_temporary>
   </component>
