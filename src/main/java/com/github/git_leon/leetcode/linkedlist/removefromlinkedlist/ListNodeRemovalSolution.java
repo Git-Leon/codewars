@@ -4,6 +4,7 @@ import com.github.git_leon.leetcode.linkedlist.ListNode;
 
 public class ListNodeRemovalSolution {
     public ListNode removeElements(ListNode head, int valueToRemove) {
+        // return head if null
         boolean isHeadNull = head == null;
         if (isHeadNull) {
             return head;
@@ -20,6 +21,7 @@ public class ListNodeRemovalSolution {
             }
         }
 
+        //traverse list
         ListNode currentNode = head;
         while (true) {
             boolean isCurrentNodeNull = currentNode == null;
