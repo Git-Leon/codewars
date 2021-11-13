@@ -35,4 +35,15 @@ public class ListNode {
         }
         return result.toString();
     }
+
+    public static ListNode generate(Integer... vals) {
+        ListNode headNode = new ListNode();
+        ListNode currentNode = headNode;
+        for (Integer val : vals) {
+            currentNode.val = val;
+            currentNode.next = new ListNode();
+            currentNode = currentNode.next;
+        }
+        return headNode;
+    }
 }
