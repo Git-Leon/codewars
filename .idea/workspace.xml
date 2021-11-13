@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNodeRemovalSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNodeRemovalSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
