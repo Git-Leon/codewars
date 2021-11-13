@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="" />
+    <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNodeRemovalSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNodeRemovalSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +123,7 @@
       <recent name="com.github.git_leon.exercises.buildpalindrome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveFromLinkedList.testRemoval1">
+  <component name="RunManager" selected="JUnit.RemoveFromLinkedList">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -263,6 +267,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveFromLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.RemoveFromLinkedList" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemoveFromLinkedList.testRemoval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mytest.0" />
       <extension name="coverage">
@@ -292,22 +312,6 @@
       <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.RemoveFromLinkedList" />
       <option name="METHOD_NAME" value="testRemoval1" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SherlockAndAnagramsShivamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.hackerrank.sherlockandanagrams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.hackerrank.sherlockandanagrams" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.hackerrank.sherlockandanagrams.SherlockAndAnagramsShivamTest" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -374,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveFromLinkedList" />
         <item itemvalue="JUnit.RemoveFromLinkedList.testRemoval1" />
         <item itemvalue="JUnit.RemoveFromLinkedList.testRemoval" />
         <item itemvalue="JUnit.GenerateLinkedList.testGeneration" />
         <item itemvalue="JUnit.BuildPalindromeIurchenkoRefactoredTest" />
-        <item itemvalue="JUnit.SherlockAndAnagramsShivamTest" />
       </list>
     </recent_temporary>
   </component>

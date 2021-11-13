@@ -2,30 +2,36 @@ package com.github.git_leon.leetcode.removefromlinkedlist;
 
 public class ListNodeRemovalSolution {
     public ListNode removeElements(ListNode head, int valueToRemove) {
-        // decapitate if necessary
-        while (head.next != null && head.val == valueToRemove) {
-            head = head.next;
+        boolean isHeadNull = head == null;
+        if (isHeadNull) {
+            return head;
         }
-        Boolean isTail = null;
-        ListNode previousElement = head;
-        ListNode currentElement = head.next;
 
+        // decapitate if necessary
         while (true) {
-            Boolean shouldRemoveCurrentNode = currentElement.val == valueToRemove;
-            if (shouldRemoveCurrentNode) { // eliminate currentElement from chain
-                previousElement.next = currentElement.next;
-                currentElement = currentElement.next.next;
+            boolean isNextNull = head.next == null;
+            boolean shouldRemoveHead = head.val == valueToRemove;
+            if (!isNextNull && shouldRemoveHead) {
+                head = head.next;
             } else {
-                previousElement = currentElement;
-                currentElement = currentElement.next;
+                break;
             }
+        }
 
-            isTail = currentElement.next == null;
-            if (isTail) {
-                boolean shouldRemoveTail = currentElement.val == valueToRemove;
-                if (shouldRemoveTail) {
-                    previousElement.next = null;
+        ListNode currentNode = head;
+        while (true) {
+            boolean isCurrentNodeNull = currentNode == null;
+            boolean isNextNodeNull = currentNode.next == null;
+            boolean shouldContinueTraversal = !isCurrentNodeNull && !isNextNodeNull;
+            if (shouldContinueTraversal) {
+                int nextValue = currentNode.next.val;
+                boolean shouldRemoveNext = nextValue == valueToRemove;
+                if (shouldRemoveNext) {
+                    currentNode.next = currentNode.next.next;
+                } else {
+                    currentNode = currentNode.next;
                 }
+            } else {
                 break;
             }
         }
