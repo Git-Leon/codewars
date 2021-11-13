@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/count/ListNodeRemovalSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/other/DeleteMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/removefromlinkedlist/ListNodeRemovalSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/removefromlinkedlist/ListNodeRemovalSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/GenerateLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/GenerateLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

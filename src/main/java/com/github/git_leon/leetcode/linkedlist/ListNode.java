@@ -1,20 +1,20 @@
-package com.github.git_leon.leetcode.removefromlinkedlist;
+package com.github.git_leon.leetcode.linkedlist;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
-    ListNode() {
+    public ListNode() {
     }
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
-    ListNode(int val, ListNode next) {
+    public ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }
@@ -29,7 +29,7 @@ public class ListNode {
 
     public static String toString(ListNode head) {
         List<Integer> result = new ArrayList<>();
-        while(head.next != null) {
+        while (head.next != null) {
             result.add(head.val);
             head = head.next;
         }

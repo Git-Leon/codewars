@@ -1,7 +1,7 @@
 package com.github.git_leon.leetcode;
 
-import com.github.git_leon.leetcode.removefromlinkedlist.ListNode;
-import com.github.git_leon.leetcode.removefromlinkedlist.ListNodeRemovalSolution;
+import com.github.git_leon.leetcode.linkedlist.ListNode;
+import com.github.git_leon.leetcode.linkedlist.removefromlinkedlist.ListNodeRemovalSolution;
 import org.junit.Assert;
 import org.junit.Test;
 
