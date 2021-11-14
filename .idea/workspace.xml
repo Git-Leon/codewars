@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="" />
+    <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/other/GetLengthOfLongestNonConsecutiveString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/longestconsecutivesubstring/GetNonConsecutiveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/longestconsecutivesubstring/HasConsecutiveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/longestconsecutivesubstring/LongestNonConsecutiveSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/other/DeleteMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/other/DeleteMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/CountLinkedListElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/linkedlist/CountLinkedListElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/GenerateLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/linkedlist/GenerateLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/linkedlist/RemoveFromLinkedList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,6 +120,7 @@
       <recent name="com.github.git_leon.exercises.sherlockandanagrams" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.github.git_leon.leetcode.linkedlist" />
       <recent name="com.github.git_leon" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -120,7 +131,7 @@
       <recent name="com.github.git_leon.exercises.buildpalindrome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveFromLinkedList">
+  <component name="RunManager" selected="JUnit.GetNonConsecutiveDuplicates.test">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -231,17 +242,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsoleTest.testFloat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetNonConsecutiveDuplicates.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mytest.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.git_leon.utilitytests.*" />
+          <option name="PATTERN" value="com.github.git_leon.leetcode.longestconsecutivesubstring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.utilitytests" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.utilitytests.ConsoleTest" />
-      <option name="METHOD_NAME" value="testFloat" />
+      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode.longestconsecutivesubstring" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.longestconsecutivesubstring.GetNonConsecutiveDuplicates" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HasConsecutiveDuplicates.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.leetcode.longestconsecutivesubstring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode.longestconsecutivesubstring" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.longestconsecutivesubstring.HasConsecutiveDuplicates" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestNonConsecutiveSubstring.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.git_leon.leetcode.longestconsecutivesubstring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode.longestconsecutivesubstring" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.longestconsecutivesubstring.LongestNonConsecutiveSubstring" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -252,30 +297,13 @@
       <module name="mytest.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.git_leon.leetcode.*" />
+          <option name="PATTERN" value="com.github.git_leon.leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.RemoveFromLinkedList" />
+      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.linkedlist.RemoveFromLinkedList" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveFromLinkedList.testRemoval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.RemoveFromLinkedList" />
-      <option name="METHOD_NAME" value="testRemoval" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -285,30 +313,14 @@
       <module name="mytest.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.git_leon.leetcode.*" />
+          <option name="PATTERN" value="com.github.git_leon.leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.RemoveFromLinkedList" />
+      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.linkedlist.RemoveFromLinkedList" />
       <option name="METHOD_NAME" value="testRemoval1" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SherlockAndAnagramsShivamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mytest.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.git_leon.hackerrank.sherlockandanagrams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.hackerrank.sherlockandanagrams" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.hackerrank.sherlockandanagrams.SherlockAndAnagramsShivamTest" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -375,11 +387,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetNonConsecutiveDuplicates.test" />
+        <item itemvalue="JUnit.HasConsecutiveDuplicates.test1" />
+        <item itemvalue="JUnit.LongestNonConsecutiveSubstring.test" />
         <item itemvalue="JUnit.RemoveFromLinkedList" />
         <item itemvalue="JUnit.RemoveFromLinkedList.testRemoval1" />
-        <item itemvalue="JUnit.RemoveFromLinkedList.testRemoval" />
-        <item itemvalue="JUnit.SherlockAndAnagramsShivamTest" />
-        <item itemvalue="JUnit.ConsoleTest.testFloat" />
       </list>
     </recent_temporary>
   </component>

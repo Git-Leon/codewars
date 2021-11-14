@@ -1,4 +1,4 @@
-package com.github.git_leon.leetcode;
+package com.github.git_leon.leetcode.linkedlist;
 
 import com.github.git_leon.leetcode.linkedlist.ListNode;
 import com.github.git_leon.leetcode.linkedlist.count.ListNodeCountSolution;
