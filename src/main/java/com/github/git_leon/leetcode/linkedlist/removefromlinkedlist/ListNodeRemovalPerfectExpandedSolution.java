@@ -22,15 +22,15 @@ public class ListNodeRemovalPerfectExpandedSolution implements ListNodeRemovalIn
         // here we either found the first non-val element
         // or are at the end of the list
         head = currentNode;
-        ListNode lastGoodElement = head;
+        ListNode mostRecentValid = head;
         while (true) {
             boolean isCurrentNull = currentNode == null;
             if (!isCurrentNull) {
-                boolean isCurrentValid = currentNode.val == val;
-                if (isCurrentValid) {
-                    lastGoodElement.next = currentNode.next;
-                } else {
-                    lastGoodElement = currentNode;
+                boolean isCurrentValid = currentNode.val != val;
+                if (!isCurrentValid) { // most recently valid is next
+                    mostRecentValid.next = currentNode.next;
+                } else { // most recently valid is current
+                    mostRecentValid = currentNode;
                 }
                 currentNode = currentNode.next;
             } else {

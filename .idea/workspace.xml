@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/removefromlinkedlist/ListNodeRemovalPerfectExpandedSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/removefromlinkedlist/ListNodeRemovalMySolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/removefromlinkedlist/ListNodeRemovalMySolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/removefromlinkedlist/ListNodeRemovalPerfectExpandedSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/removefromlinkedlist/ListNodeRemovalPerfectExpandedSolution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +116,7 @@
       <recent name="com.github.git_leon" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.git_leon.leetcode.linkedlist.removefromlinkedlist" />
       <recent name="com.github.git_leon.exercises.sherlockandanagrams" />
       <recent name="com.github.git_leon.exercisetests.sherlockandanagrams" />
       <recent name="com.github.git_leon.exercisetests.buildpalindrome" />
@@ -481,7 +482,7 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/removefromlinkedlist/ListNodeRemovalSolution2.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/removefromlinkedlist/ListNodeRemovalMySolution.java</url>
           <line>7</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
