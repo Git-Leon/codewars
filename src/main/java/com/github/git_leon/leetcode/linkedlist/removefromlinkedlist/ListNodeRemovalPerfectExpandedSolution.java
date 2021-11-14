@@ -9,7 +9,7 @@ public class ListNodeRemovalPerfectExpandedSolution implements ListNodeRemovalIn
     public ListNode removeElements(ListNode head, int valueToRemove) {
         ListNode currentNode = head;
 
-        // skip any val elements at the start of the list
+        // skip all head elements which are not valid until we reach `null`
         while (true) {
             boolean isCurrentNull = currentNode == null;
             if (isCurrentNull) { // if current is null: we are at end of list
@@ -24,8 +24,7 @@ public class ListNodeRemovalPerfectExpandedSolution implements ListNodeRemovalIn
             }
         }
 
-        // here we either found the first non-val element
-        // or are at the end of the list
+        // if not at end of list: find first valid element
         head = currentNode;
         ListNode mostRecentValid = head;
         while (true) {
