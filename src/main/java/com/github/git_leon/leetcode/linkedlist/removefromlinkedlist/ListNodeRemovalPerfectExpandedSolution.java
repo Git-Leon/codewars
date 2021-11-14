@@ -4,7 +4,7 @@ import com.github.git_leon.leetcode.linkedlist.ListNode;
 
 /**
  * The decision to break; first is to ensure that we account for the simplest logic first
- */
+ *///https://leetcode.com/problems/remove-linked-list-elements/submissions/
 public class ListNodeRemovalPerfectExpandedSolution implements ListNodeRemovalInterface {
     public ListNode removeElements(ListNode head, int valueToRemove) {
         ListNode currentNode = head;

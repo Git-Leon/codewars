@@ -3,6 +3,7 @@ package com.github.git_leon.leetcode.other;
 import java.util.*;
 import java.util.stream.Collectors;
 
+// https://leetcode.com/problems/longest-substring-without-repeating-characters/
 public class GetLengthOfLongestNonConsecutiveString {
     public int lengthOfLongestSubstring(String s) {
         return getNonConsecutiveSubStrings(s)// remove consecutive duplicates
@@ -18,6 +19,15 @@ public class GetLengthOfLongestNonConsecutiveString {
                 .stream()
                 .filter(currentString -> hasConsecutiveDuplicates(currentString))
                 .collect(Collectors.toList());
+    }
+
+    public boolean hasRepeatingCharacters(String input) {
+        List<String> characters = Arrays.asList(input.split(""));
+        String nonUniqueCharacters = characters.toString();
+        String uniqueCharacters = new HashSet<>(characters).toString();
+        System.out.println(nonUniqueCharacters);
+        System.out.println(uniqueCharacters);
+        return !nonUniqueCharacters.equals(uniqueCharacters);
     }
 
     public boolean hasConsecutiveDuplicates(String str) {
