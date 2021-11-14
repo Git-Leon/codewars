@@ -2,9 +2,8 @@ package com.github.git_leon.leetcode;
 
 import com.github.git_leon.leetcode.linkedlist.ListNode;
 import com.github.git_leon.leetcode.linkedlist.removefromlinkedlist.ListNodeRemovalInterface;
+import com.github.git_leon.leetcode.linkedlist.removefromlinkedlist.ListNodeRemovalPerfectExpandedSolution;
 import com.github.git_leon.leetcode.linkedlist.removefromlinkedlist.ListNodeRemovalPerfectSolution;
-import com.github.git_leon.leetcode.linkedlist.removefromlinkedlist.ListNodeRemovalSolution;
-import com.github.git_leon.leetcode.linkedlist.removefromlinkedlist.ListNodeRemovalSolution2;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,7 +11,7 @@ public class RemoveFromLinkedList {
     // given
     private void test(ListNode node, Integer valueToRemove, String expected) {
         // when
-        ListNodeRemovalInterface solution = new ListNodeRemovalPerfectSolution();
+        ListNodeRemovalInterface solution = new ListNodeRemovalPerfectExpandedSolution();
         ListNode result = solution.removeElements(node, valueToRemove);
         String actual = ListNode.toString(result);
 

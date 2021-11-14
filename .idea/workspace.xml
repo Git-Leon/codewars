@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/removefromlinkedlist/ListNodeRemovalPerfectSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/removefromlinkedlist/ListNodeRemovalSolution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/linkedlist/removefromlinkedlist/ListNodeRemovalPerfectExpandedSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/RemoveFromLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
