@@ -18,7 +18,7 @@ public class ListNodeRemovalPerfectExpandedSolution implements ListNodeRemovalIn
                 boolean isCurrentValid = currentNode.val == valueToRemove;
                 if (!isCurrentValid) { // if current is invalid: next node is current
                     break;
-                } else {
+                } else { // all other cases: continue to iterate
                     currentNode = currentNode.next;
                 }
             }
