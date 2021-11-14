@@ -2,7 +2,7 @@ package com.github.git_leon.leetcode.linkedlist.removefromlinkedlist;
 
 import com.github.git_leon.leetcode.linkedlist.ListNode;
 
-public class ListNodeRemovalSolution2 implements ListNodeRemovalInterface {
+public class ListNodeRemovalMySolution implements ListNodeRemovalInterface {
     public ListNode removeElements(ListNode head, int valueToRemove) {
         // if head is null return null
         if (head == null) {
