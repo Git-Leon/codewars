@@ -9,7 +9,7 @@ public class ListNodeRemovalPerfectExpandedSolution implements ListNodeRemovalIn
     public ListNode removeElements(ListNode head, int valueToRemove) {
         ListNode currentNode = head;
 
-        // skip all head elements which are not valid or until we reach `null`
+        // skip all head elements which are not valid or until head is `null`
         while (true) {
             boolean isCurrentNull = currentNode == null;
             if (isCurrentNull) { // if current is null: we are at end of list
