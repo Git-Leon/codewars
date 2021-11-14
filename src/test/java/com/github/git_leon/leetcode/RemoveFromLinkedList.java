@@ -3,7 +3,6 @@ package com.github.git_leon.leetcode;
 import com.github.git_leon.leetcode.linkedlist.ListNode;
 import com.github.git_leon.leetcode.linkedlist.removefromlinkedlist.ListNodeRemovalInterface;
 import com.github.git_leon.leetcode.linkedlist.removefromlinkedlist.ListNodeRemovalPerfectExpandedSolution;
-import com.github.git_leon.leetcode.linkedlist.removefromlinkedlist.ListNodeRemovalPerfectSolution;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -25,16 +25,18 @@ public class ListNodeRemovalPerfectExpandedSolution implements ListNodeRemovalIn
         ListNode mostRecentValid = head;
         while (true) {
             boolean isCurrentNull = currentNode == null;
-            if (!isCurrentNull) {
-                boolean isCurrentValid = currentNode.val != val;
-                if (!isCurrentValid) { // most recently valid is next
-                    mostRecentValid.next = currentNode.next;
-                } else { // most recently valid is current
-                    mostRecentValid = currentNode;
-                }
-                currentNode = currentNode.next;
-            } else {
+            if (isCurrentNull) { // if current is null: we are at end of list
                 break;
+            } else {
+                // if current is not null: check if current is valid
+                boolean isCurrentValid = currentNode.val != val;
+                if (isCurrentValid) { // if current is valid: most recently valid is current
+                    mostRecentValid = currentNode;
+                } else { // if current is not valid: most recently valid is next
+                    mostRecentValid.next = currentNode.next;
+                }
+                // as long as current is not null, next is current.next
+                currentNode = currentNode.next;
             }
         }
 
