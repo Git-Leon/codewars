@@ -21,12 +21,11 @@ public class GetLengthOfLongestNonConsecutiveString {
                 .collect(Collectors.toList());
     }
 
+    // we know that there are repeating characters if the set has removed at least 1 element
     public boolean hasRepeatingCharacters(String input) {
         List<String> characters = Arrays.asList(input.split(""));
         String nonUniqueCharacters = characters.toString();
         String uniqueCharacters = new HashSet<>(characters).toString();
-        System.out.println(nonUniqueCharacters);
-        System.out.println(uniqueCharacters);
         return !nonUniqueCharacters.equals(uniqueCharacters);
     }
 
