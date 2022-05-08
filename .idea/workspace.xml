@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/leetcode/longestconsecutivesubstring/HasRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/codewars/largestdifference/LargestDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/git_leon/codewars/largestdifference/LargestDifferenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/other/GetLengthOfLongestNonConsecutiveString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/git_leon/leetcode/other/GetLengthOfLongestNonConsecutiveString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,14 +17,12 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="mytest.0" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -39,66 +37,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/exercisetests/AdjacentDigitsTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1170" />
-  </component>
   <component name="ProjectId" id="1sZU7rHoAhh3XVyZWcEZAHv0t5P" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mytest.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mytest.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mytest0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -107,15 +46,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.github.git_leon.exercises.sherlockandanagrams" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.github.git_leon.codewars.largestdifference" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.github.git_leon.leetcode.linkedlist" />
       <recent name="com.github.git_leon" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.github.git_leon.leetcode.longestconsecutivesubstring" />
@@ -124,8 +68,11 @@
       <recent name="com.github.git_leon.exercisetests.sherlockandanagrams" />
       <recent name="com.github.git_leon.exercisetests.buildpalindrome" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.git_leon.exercises.sherlockandanagrams" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.HasRepeatingCharacters">
+  <component name="RunManager" selected="JUnit.LargestDifferenceTest">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -303,18 +250,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestNonConsecutiveSubstring.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LargestDifferenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mytest.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.git_leon.leetcode.longestconsecutivesubstring.*" />
+          <option name="PATTERN" value="com.github.git_leon.codewars.largestdifference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.git_leon.leetcode.longestconsecutivesubstring" />
-      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.leetcode.longestconsecutivesubstring.LongestNonConsecutiveSubstring" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.github.git_leon.codewars.largestdifference" />
+      <option name="MAIN_CLASS_NAME" value="com.github.git_leon.codewars.largestdifference.LargestDifferenceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -381,15 +327,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LargestDifferenceTest" />
         <item itemvalue="JUnit.HasRepeatingCharacters" />
         <item itemvalue="JUnit.HasRepeatingCharacters.test1" />
         <item itemvalue="JUnit.GetNonConsecutiveDuplicates.test" />
         <item itemvalue="JUnit.HasConsecutiveDuplicates.test1" />
-        <item itemvalue="JUnit.LongestNonConsecutiveSubstring.test" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0ac8854d-b7b3-42af-b9dc-586f4c906264" name="Default" comment="" />
@@ -399,47 +348,6 @@
       <updated>1529786428291</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="AdjacentDigitsTest_test3 - 2018.06.23 at 16h 49m 33s.xml">
-      <configuration name="AdjacentDigitsTest.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdjacentDigitsTest_test3 - 2018.06.23 at 16h 49m 58s.xml">
-      <configuration name="AdjacentDigitsTest.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdjacentDigitsTest_test3 - 2018.06.23 at 16h 50m 10s.xml">
-      <configuration name="AdjacentDigitsTest.test3" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1170" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -460,6 +368,48 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="182" key="#com.intellij.ide.util.MemberChooser" timestamp="1651978415652">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="533" y="182" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875@0.25.1440.875" timestamp="1651978415652" />
+    <state width="1398" height="282" key="GridCell.Tab.0.bottom" timestamp="1652046456612">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1652046456612" />
+    <state width="1398" height="282" key="GridCell.Tab.0.center" timestamp="1652046456608">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1652046456608" />
+    <state width="1398" height="282" key="GridCell.Tab.0.left" timestamp="1652046456602">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1652046456602" />
+    <state width="1398" height="282" key="GridCell.Tab.0.right" timestamp="1652046456609">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1652046456609" />
+    <state width="1398" height="282" key="GridCell.Tab.1.bottom" timestamp="1652046456876">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1652046456876" />
+    <state width="1398" height="282" key="GridCell.Tab.1.center" timestamp="1652046456875">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1652046456875" />
+    <state width="1398" height="282" key="GridCell.Tab.1.left" timestamp="1652046456875">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1652046456875" />
+    <state width="1398" height="282" key="GridCell.Tab.1.right" timestamp="1652046456876">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1652046456876" />
+    <state x="418" y="288" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1651976818012">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="418" y="288" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.875@0.25.1440.875" timestamp="1651976818012" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -489,61 +439,16 @@
           <line>7</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/git_leon/codewars/largestdifference/LargestDifference.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="933" column="18" selection-start-line="933" selection-start-column="18" selection-end-line="933" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exercises/adjacentdigits/AdjacentDigitInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exercises/adjacentdigits/AdjacentDigits1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exercises/adjacentdigits/AdjacentDigits2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/exercisetests/AdjacentDigitsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
